@@ -1,12 +1,7 @@
-
 module.exports = {
 	trailingSlash: true,
 	reactStrictMode: false,
-	swcMinify: true,
 	output: 'standalone',
-	experimental: {
-		esmExternals: false,
-	},
 	eslint: {
 		ignoreDuringBuilds: true,
 	},
